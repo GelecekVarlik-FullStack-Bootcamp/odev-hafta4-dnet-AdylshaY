@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkManagement.Bll\WorkManagement.Bll.csproj" />
+    <ProjectReference Include="..\WorkManagement.Entity\WorkManagement.Entity.csproj" />
+    <ProjectReference Include="..\WorkManagement.Interface\WorkManagement.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
